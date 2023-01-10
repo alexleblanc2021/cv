@@ -24,7 +24,7 @@ hr {
 border: dotted #EAF6F6 6px;
 border-bottom: none;
 width: 4%;
-margin: 100px auto;
+margin: 75px auto;
 }
 
 p {
@@ -103,14 +103,19 @@ padding: 50px 0 20px;
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 30px;
+  right: 250px;
+  top: 100px;
+}
+.cloud3 {
+  position: absolute;
+  right: 450px;
+  bottom: 350px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  top: 100px
+  left: 250px;
+  top: 200px
 }
 
 .mountain {
@@ -121,12 +126,12 @@ padding: 50px 0 20px;
 }
 
 .btn {
-  background: #7D6E83;
-  background-image: -webkit-linear-gradient(top, #7D6E83, #7D6E83);
-  background-image: -moz-linear-gradient(top, #7D6E83, #7D6E83);
-  background-image: -ms-linear-gradient(top, #7D6E83, #7D6E83);
-  background-image: -o-linear-gradient(top, #7D6E83, #7D6E83);
-  background-image: linear-gradient(to bottom, #7D6E83, #7D6E83);
+  background: #D0B8A8;
+  background-image: -webkit-linear-gradient(top, #D0B8A8, #D0B8A8);
+  background-image: -moz-linear-gradient(top, #D0B8A8, #D0B8A8);
+  background-image: -ms-linear-gradient(top, #D0B8A8, #D0B8A8);
+  background-image: -o-linear-gradient(top, #D0B8A8, #D0B8A8);
+  background-image: linear-gradient(to bottom, #D0B8A8, #D0B8A8);
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
@@ -138,12 +143,12 @@ padding: 50px 0 20px;
 }
 
 .btn:hover {
-  background: #c2bec4;
-  background-image: -webkit-linear-gradient(top, #c2bec4, #8d7e94);
-  background-image: -moz-linear-gradient(top, #c2bec4, #8d7e94);
-  background-image: -ms-linear-gradient(top, #c2bec4, #8d7e94);
-  background-image: -o-linear-gradient(top, #c2bec4, #8d7e94);
-  background-image: linear-gradient(to bottom, #c2bec4, #8d7e94);
+  background: #DFD3C3;
+  background-image: -webkit-linear-gradient(top, #DFD3C3, #DFD3C3);
+  background-image: -moz-linear-gradient(top, #DFD3C3, #DFD3C3);
+  background-image: -ms-linear-gradient(top, #DFD3C3, #DFD3C3);
+  background-image: -o-linear-gradient(top, #DFD3C3, #DFD3C3);
+  background-image: linear-gradient(to bottom, #DFD3C3, #DFD3C3);
   text-decoration: none;
 }
 
