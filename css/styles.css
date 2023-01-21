@@ -27,18 +27,23 @@ width: 4%;
 margin: 75px auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 p {
   line-height: 2;
 }
 
-a {
+.footer-link {
   color: #D0B8A8;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover {
+.footer-link:hover {
   color: #7D6E83;
 }
 
