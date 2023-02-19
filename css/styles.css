@@ -20,6 +20,10 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.spacer {
+  margin: 100px auto;
+}
+
 hr {
 border: dotted #EAF6F6 6px;
 border-bottom: none;
@@ -31,6 +35,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.introanchor {
+  font-style: italic;
+}
+
+
 
 p {
   line-height: 2;
