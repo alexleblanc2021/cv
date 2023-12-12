@@ -1,5 +1,4 @@
 body {
-margin: 20px;
 text-align: left;
 font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default san
 serif style, stick to "web safe fonts" for maximum render correctness*/
@@ -61,11 +60,11 @@ margin: 75px auto;
 a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  color: #574940;
+  color: #c7a591;
 }
 a:hover {
   text-decoration: none;
-  color: #3e342e;
+  color: #54463e;
 }
 
 table {
@@ -147,6 +146,9 @@ html, body {
 
 
 .bottom-container {
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default sanserif style, stick to "web safe fonts" for maximum render correctness*/
 background-color: #F8EDE3;
 padding: 50px 0 20px;
 }
