@@ -1,9 +1,20 @@
 body {
+margin: 20px;
+text-align: left;
+font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default san
+serif style, stick to "web safe fonts" for maximum render correctness*/
+}
+
+.indexbody {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default san
   serif style, stick to "web safe fonts" for maximum render correctness*/
 }
+.company-link {
+  padding-top: 5px;
+}
+
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
@@ -20,8 +31,24 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.footer-link {
+  color: #c7a591;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #54463e;
+}
+
 .spacer {
   margin: 100px auto;
+}
+
+ol, ul {
+  margin: 10px 0;
+  padding-left: 20px;
 }
 
 hr {
@@ -33,27 +60,36 @@ margin: 75px auto;
 
 a {
   text-decoration: none;
-  color: inherit;
+  font-family: 'Montserrat', sans-serif;
+  color: #574940;
 }
+a:hover {
+  text-decoration: none;
+  color: #3e342e;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px ;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+li {
+  list-style: disc;
+}
+
 .introanchor {
   font-style: italic;
 }
 
-
-
 p {
   line-height: 2;
-}
-
-.footer-link {
-  color: #D0B8A8;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  color: #7D6E83;
 }
 
 .alex {
@@ -177,3 +213,9 @@ padding: 50px 0 20px;
   float: right;
   margin-left: 30px;
 }
+
+.workexperience {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
