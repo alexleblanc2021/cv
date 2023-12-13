@@ -3,7 +3,11 @@ text-align: left;
 font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default san
 serif style, stick to "web safe fonts" for maximum render correctness*/
 }
-
+.skills {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;  
+}
 .indexbody {
   margin: 0;
   text-align: center;
@@ -60,11 +64,11 @@ margin: 75px auto;
 a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  color: #c7a591;
+  color: #54463e;
 }
 a:hover {
   text-decoration: none;
-  color: #54463e;
+  color: #c7a591;
 }
 
 table {
@@ -119,7 +123,7 @@ html, body {
   padding-bottom: 100;
 }
 .middle-container {
-  padding: 70px 0;
+  padding-top: 70px;
 }
 .profile {
   margin-bottom: 50px;
@@ -137,6 +141,7 @@ html, body {
 
 .contact-me {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-message {
