@@ -71,6 +71,16 @@ a:hover {
   color: #c7a591;
 }
 
+.academicexperiences-link {
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  color: #c7a591;
+}
+.academicexperiences-link:hover {
+  text-decoration: none;
+  color: #54463e;
+}
+
 table {
   width: 80%;
   border-collapse: collapse;
