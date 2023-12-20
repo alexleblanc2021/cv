@@ -54,7 +54,7 @@ ol, ul {
   padding-left: 20px;
 }
 
-hr {
+.index-hr {
 border: dotted #EAF6F6 6px;
 border-bottom: none;
 width: 4%;
