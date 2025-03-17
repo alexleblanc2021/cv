@@ -1,238 +1,236 @@
-body {
-text-align: left;
-font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default san
-serif style, stick to "web safe fonts" for maximum render correctness*/
+/* Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
-.skills {
+
+/* Headers */
+h1, h2, h3 {
+  margin: 0 0 15px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #2c3e50;
+}
+
+/* Hero Section (Index Page) */
+.hero {
+  background-color: #F8EDE3;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  width: auto;  
 }
-.indexbody {
-  margin: 0;
+
+.cta-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background-color: #fff;
   text-align: center;
-  font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default san
-  serif style, stick to "web safe fonts" for maximum render correctness*/
-}
-.company-link {
-  padding-top: 5px;
 }
 
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
-  margin-top: 50px;
-  margin-bottom: 0;
-  
+.about .profile {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-h2 {
-  font-weight: normal;
-    
-  }
-h3 {
-  font-family: 'Montserrat', sans-serif;
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Experience Section */
+.experience {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.experience-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.experience-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.experience-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer p {
+  margin: 10px 0;
 }
 
 .footer-link {
-  color: #c7a591;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+  color: #ecf0f1;
+  margin: 0 10px;
   text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #54463e;
+  color: #3498db;
 }
 
-.spacer {
-  margin: 100px auto;
-}
-
-ol, ul {
-  margin: 10px 0;
-  padding-left: 20px;
-}
-
-.index-hr {
-border: dotted #EAF6F6 6px;
-border-bottom: none;
-width: 4%;
-margin: 75px auto;
-}
-
-a {
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  color: #54463e;
-}
-a:hover {
-  text-decoration: none;
-  color: #c7a591;
-}
-
-.academicexperiences-link {
-  text-decoration: none;
-  font-family: 'Merriweather', serif;
-  color: #c7a591;
-}
-.academicexperiences-link:hover {
-  text-decoration: none;
-  color: #54463e;
-}
-
+/* Work Experience Page Styles */
+/* Table Styling */
 table {
-  width: 80%;
+  width: 90%;
+  margin: 30px auto;
   border-collapse: collapse;
-  margin-top: 20px ;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 
 th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
+  border: 1px solid #ddd;
+  padding: 12px;
   text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Lists for Work Experience Details */
+ol, ul {
+  margin: 20px auto;
+  padding-left: 40px;
+  max-width: 800px;
 }
 
 li {
-  list-style: disc;
+  margin-bottom: 10px;
 }
 
-.introanchor {
-  font-style: italic;
+/* Generic Images */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-p {
-  line-height: 2;
+/* Utility Classes */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.alex {
-  width: 20%;
-  border-radius: 200px;
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .experience-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-card {
+    width: 90%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
 }
-
-.copyright {
-  color: #D0B8A8;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-html, body {
-  height:100%;
-}
-
-.intro {
-  width: 50%;
-  margin: auto;
-}
-
-.top-container {
-  background-color: #F8EDE3;
-  height: 100%;
-  position: relative;
-  padding-top: 200px;
-  padding-bottom: 100;
-}
-.middle-container {
-  padding-top: 70px;
-}
-.profile {
-  margin-bottom: 50px;
-}
-
-.middle-container-header {
-  margin-top: 30px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 30px auto 100px auto;
-  text-align: left;
-}
-
-.contact-me {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-
-.bottom-container {
-margin: 0;
-text-align: center;
-font-family: 'Merriweather', serif; /* First styles font in verdana font, then styles any fonts not supported in the default sanserif style, stick to "web safe fonts" for maximum render correctness*/
-background-color: #F8EDE3;
-padding: 50px 0 20px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 250px;
-  top: 100px;
-}
-.cloud3 {
-  position: absolute;
-  right: 450px;
-  bottom: 350px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  top: 200px
-}
-
-.mountain {
-  position: relative;
-  width: 100%;
-  margin-top: 0;
-  display: inline;
-}
-
-.btn {
-  background: #D0B8A8;
-  background-image: -webkit-linear-gradient(top, #D0B8A8, #D0B8A8);
-  background-image: -moz-linear-gradient(top, #D0B8A8, #D0B8A8);
-  background-image: -ms-linear-gradient(top, #D0B8A8, #D0B8A8);
-  background-image: -o-linear-gradient(top, #D0B8A8, #D0B8A8);
-  background-image: linear-gradient(to bottom, #D0B8A8, #D0B8A8);
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #DFD3C3;
-  background-image: -webkit-linear-gradient(top, #DFD3C3, #DFD3C3);
-  background-image: -moz-linear-gradient(top, #DFD3C3, #DFD3C3);
-  background-image: -ms-linear-gradient(top, #DFD3C3, #DFD3C3);
-  background-image: -o-linear-gradient(top, #DFD3C3, #DFD3C3);
-  background-image: linear-gradient(to bottom, #DFD3C3, #DFD3C3);
-  text-decoration: none;
-}
-
-.programming1 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.programming2 {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
-.workexperience {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
