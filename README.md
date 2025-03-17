@@ -1,1 +1,2 @@
 # cv
+I created this personal website in 2022 to showcase my academic and professional experiences. As I grew busier with a variety of academic and professional commitments I failed to update the website regularly. I plan to actively monitor this page and adjust it moving forward. Please feel free to learn about my skills, passion, and personal vision and reach out to me if you are interested in connecting.

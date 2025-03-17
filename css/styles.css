@@ -6,6 +6,7 @@ html, body {
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 /* Headers */
@@ -17,7 +18,7 @@ h1, h2, h3 {
 
 /* Hero Section (Index Page) */
 .hero {
-  background-color: #F8EDE3;
+  background-color: #D6EAF8;
   text-align: center;
   padding: 100px 20px;
 }
@@ -214,6 +215,39 @@ img {
   display: block;
   clear: both;
 }
+.contentcontainer {
+  max-width: 1200px; /* or whatever max width suits your design */
+  margin: 0 auto;    /* centers the container */
+  padding: 20px;     /* adds space around the content */
+}
+
+a {
+  text-decoration: none;
+  color: #3498db; /* Base color */
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #3498db;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+a:hover, a:focus {
+  color: #2980b9; /* Darker shade on hover/focus */
+}
+
+a:hover::after, a:focus::after {
+  transform: scaleX(1);
+}
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
@@ -234,3 +268,4 @@ img {
     font-size: 1.5rem;
   }
 }
+
